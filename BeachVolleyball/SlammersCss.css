@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body {
+	background-color: #2F6690;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: white;
+}
+
+.LogoContainer {
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.announcementpane {
+	background-color: #16425B;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin:auto;
+	
+}
+
+.announcementpane p {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
+
+.announcementtext {
+	margin:auto;
+	padding: 5px;
+	color: white;
+	
+}
+
+.announcementheader {
+	display:block;
+	margin-bottom: 5px;
+	color: white;
+}
+
+ul.navlist {
+	list-style-type: none;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #16425B;
+}
+
+ul.navlist li {
+	float: left;
+}
+
+ul.navlist li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.navlist li a:hover {
+	background-color: #3A7CA5;
+}
+
+.MainTextBlock1 h1 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.MainTextBlock1 {
+	display: block;
+	background-color: #16425B;
+	margin:auto;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	width: 48%;
+	float: left;
+}
+
+.MainTextBlock2 h1 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.MainTextBlock2 {
+	display: block;
+	background-color: #16425B;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	width: 48%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.mainpagesignup {
+	display: block;
+	width: 48%;
+	float: left;
+	background-color: #16425B;
+	margin: auto;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.mainpagesignup a:link {
+	color: #92DCE5
+}
+
+.mainpagesignup a:hover {
+	color: #3A7CA5
+}
+
+.mainpagesignup a:visted {
+	color: #3A7CA5
+}
