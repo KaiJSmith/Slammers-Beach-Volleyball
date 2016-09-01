@@ -19,6 +19,7 @@ body {
 	color: white;
 	margin:auto;
 	padding-bottom: 5px;
+	margin-bottom: 5px;
 	
 }
 
@@ -116,15 +117,15 @@ ul.navlist li a:hover {
 	margin-bottom: 20px;
 }
 
-.mainpagesignup a:link {
+a:link {
 	color: #92DCE5;
 }
 
-.mainpagesignup a:hover {
+a:hover {
 	color: #3A7CA5;
 }
 
-.mainpagesignup a:visted {
+a:visted {
 	color: #3A7CA5;
 }
 
@@ -174,3 +175,79 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #3A7CA5;
+}
+
+.contactcontainer {
+	margin: auto;
+	background-color: #16425B;	
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.contactcontainer h1 {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.contactcontainer img {
+	width: 200px;
+	float: right;
+	padding-right: 150px;
+}
+
+.contactcontainer p {
+	padding-left:10px;
+	background-color: inherit;
+	margin: auto;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.linkscontainer {
+	margin: auto;
+	background-color: #16425B;	
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.linkscontainer h1 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.linkscontainer p {
+	padding-left: 20px;
+}
+
+
+.signupformcontainer h1{
+	text-align: center;
+}
+.signupformcontainer {
+	margin: auto;
+	background-color: #16425B;	
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.signupformcontainer input {
+	margin-left: 5%;
+}
+
+
+.signupformcontainer p {
+	text-align:center;
+}
+
+.guidelinescontainer {
+	margin: auto;
+	background-color: #16425B;	
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+
+.guidelinescontainer h1 {
+	text-align:center;
+}
